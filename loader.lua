@@ -1,0 +1,5 @@
+local a="IyBCaXJkIEdhbWUgU2NyaXB0Ci0tIFNjcmlwdGVyOiBzdmV0aG8gfCBVSSBEZXNpZ25lcjogc211Z2lseQpsb2NhbCBQbGF5ZXJzID0gZ2FtZTpHZXRTZXJ2aWNlKCJQbGF5ZXJzIikKbG9jYWwgVXNlcklucHV0U2VydmljZSA9IGdhbWU6R2V0U2VydmljZSgiVXNlcklucHV0U2VydmljZSIpCmxvY2FsIFJ1blNlcnZpY2UgPSBnYW1lOkdldFNlcnZpY2UoIlJ1blNlcnZpY2UiKQpsb2NhbCBUd2VlblNlcnZpY2UgPSBnYW1lOkdldFNlcnZpY2UoIlR3ZWVuU2VydmljZSIpCi4uLg=="
+
+local b = game:GetService("HttpService")
+local c = b:JSONDecode('"'..a..'"')
+loadstring(c)()
